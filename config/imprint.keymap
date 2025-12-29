@@ -27,14 +27,14 @@
 
         Sonderzeichen {
             bindings = <
-&kp PRINTSCREEN  &trans        &trans          &trans          &trans             &trans                &trans      &trans    &trans            &trans             &trans           &trans
-&trans           &trans        &trans          &trans          &trans             &trans                &trans      &trans    &trans            &trans             &trans           &trans
-&kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LS(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)            &trans      &kp HOME  &kp UP            &kp END            &trans           &trans
-&trans           &kp KP_SLASH  &kp BACKSLASH   &kp KP_EQUAL    &kp LS(DOT)        &kp LS(N8)            &kp LS(N9)  &kp HASH  &kp LS(KP_COMMA)  &kp LS(BACKSLASH)  &kp KP_MULTIPLY  &trans
-&trans           &trans        &kp N1          &kp N2          &kp N3             &trans                &trans      &trans    &trans            &trans             &trans           &trans
-&trans           &trans        &trans          &kp N0          &trans                                               &trans    &trans            &trans             &trans           &trans
-                                                               &trans             &trans      &trans    &trans      &trans    &trans
-                                                               &trans             &trans      &trans    &trans      &trans    &trans
+&kp PRINTSCREEN  &trans        &trans          &trans          &trans             &trans      &trans        &trans        &trans            &trans             &trans           &trans
+&trans           &trans        &trans          &trans          &trans             &trans      &trans        &trans        &trans            &trans             &trans           &trans
+&kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)  &kp LS(MINUS) &kp KP_MINUS  &kp LC(LA(N9))    &kp LC(LA(N0))     &kp EQUAL        &trans
+&trans           &kp KP_SLASH  &kp BACKSLASH   &kp KP_EQUAL    &kp LS(DOT)        &kp LS(N8)  &kp LS(N9)    &kp HASH      &kp LS(KP_COMMA)  &kp LS(BACKSLASH)  &kp KP_MULTIPLY  &trans
+&trans           &trans        &kp N1          &kp N2          &kp N3             &trans      &trans        &trans        &trans            &trans             &trans           &trans
+&trans           &trans        &trans          &kp N0          &trans                                                     &trans    &trans            &trans             &trans           &trans
+                                                               &trans             &trans      &trans    &trans            &trans    &trans
+                                                               &trans             &trans      &trans    &trans            &trans    &trans
             >;
         };
 
