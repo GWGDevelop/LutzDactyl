@@ -31,7 +31,7 @@
 &trans           &trans        &trans          &trans          &trans             &trans             &trans         &trans            &trans            &trans             &trans           &trans
 &kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)         &kp LS(MINUS)  &kp KP_MINUS      &kp LC(LA(N9))    &kp LC(LA(N0))     &kp EQUAL        &kp LALT
 &trans           &kp KP_SLASH  &kp NUBS        &kp LS(N0)      &kp LS(DOT)        &kp LS(N8)         &kp LS(N9)     &kp LS(BACKSLASH) &kp LS(COMMA)     &kp LS(NUBS)       &kp KP_MULTIPLY  &kp RCTRL
-&trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)   &kp LC(LA(Q))      &kp LS(N6)         &kp RA(LT)     &kp LC(LA(MINUS)) &kp LS(N2)        &kp BACKSLASH      &kp RA(E)        &trans
+&trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)   &kp LC(LA(Q))      &kp LS(N6)         &kp RC(LA(NUBS))   &kp RA(MINUS)     &kp LS(N2)        &kp BACKSLASH      &kp RA(E)        &trans
 &trans           &kp LS(N4)    &trans          &kp N0          &trans                                               &trans            &kp UP            &kp DOWN           &kp HOME         &trans
                                                &trans          &trans             &trans             &trans         &trans            &trans
                                                &trans          &trans             &trans             &trans         &trans            &trans
@@ -43,12 +43,12 @@
 &trans       &trans        &trans        &trans        &trans        &trans                  &trans           &trans           &trans           &trans           &trans           &trans
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans           &trans           &trans
 &sys_reset   &trans        &trans        &trans        &trans        &trans                  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &sys_reset
-&bootloader  &trans        &trans        &trans        &trans        &trans                  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &bootloader
+&bootloader  &kp PIPE      &kp NUBS      &kp LBKT      &kp RBKT      &trans                  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &bootloader
 &to 4        &trans        &trans        &trans        &trans        &trans                  &trans           &trans           &trans           &trans           &trans           &to 4
 &to 4        &trans        &trans        &trans        &trans                                                 &trans           &trans           &trans           &trans           &to 4
                                                        &trans        &trans        &trans    &trans           &trans           &trans
                                                        &trans        &trans        &trans    &trans           &trans           &trans
-            >;
+            >;üü
         };
 
         Auto_Mouse_Layer {
