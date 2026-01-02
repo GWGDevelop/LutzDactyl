@@ -14,27 +14,27 @@
 
         default_layer {
             bindings = <
-&kp F1     &kp F2    &kp F2    &kp F4    &kp F5     &kp F6                &kp F7   &kp F8       &kp F9      &kp F10    &kp F11  &kp F12
-&kp PG_DN  &kp N1    &kp N2    &kp N3    &kp N4     &kp N5                &kp N6   &kp N7       &kp N8      &kp N9     &kp N0   &kp PG_UP
-&kp LALT   &kp X     &kp V     &kp L     &kp C      &kp W                 &kp K    &kp H        &kp G       &kp F      &kp Q    &kp MINUS
-&kp LCTRL  &kp U     &kp I     &kp A     &kp E      &kp O                 &kp S    &kp N        &kp R       &kp T      &kp D    &kp Z
-&kp LSHFT  &kp LBKT  &kp SEMI  &kp APOS  &kp P      &kp Y                 &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
-&kp LGUI   &kp HOME  &kp UP    &kp DOWN  &trans                                    &trans       &kp LEFT    &kp RIGHT  &kp END  &kp RGUI
-                                         &kp SPACE  &kp TAB  &kp LC(Y)    &kp DEL  &kp BSPC     &kp RETURN
-                                         &mo 2      &kp ESC  &kp K_APP    &mo 1    &kp LA(TAB)  &kp INS
+&kp F1     &kp F2    &kp F2         &kp F4    &kp F5     &kp F6          &kp F7   &kp F8       &kp F9      &kp F10    &kp F11  &kp F12
+&kp PG_DN  &kp N1    &kp N2         &kp N3    &kp N4     &kp N5          &kp N6   &kp N7       &kp N8      &kp N9     &kp N0   &kp PG_UP
+&kp LALT   &kp X     &kp V          &kp L     &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &kp LALT MINUS
+&kp LCTRL  &kp U     &kp I          &kp A     &kp E      &kp O           &kp S    &kp N        &kp R       &kp T      &kp D    &mt RCTRL Z
+&kp LSHFT  &kp LBKT  &mt LALT SEMI  &kp APOS  &kp P      &kp Y           &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
+&kp LGUI   &kp HOME  &kp UP         &kp DOWN  &trans                              &trans       &kp LEFT    &kp RIGHT  &kp E    &kp RGUI
+                                    &kp SPACE &kp TAB    &kp LC(Y)       &kp DEL  &kp BSPC     &kp RETURN
+                                    &mo 2     &kp ESC    &kp K_APP       &kp INS  &kp LA(TAB)  &mo 1
             >;
         };
 
         Sonderzeichen {
             bindings = <
-&kp PRINTSCREEN  &trans        &trans          &trans          &trans             &trans      &trans        &trans        &trans            &trans             &trans           &trans
-&trans           &trans        &trans          &trans          &trans             &trans      &trans        &trans        &trans            &trans             &trans           &trans
-&kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)  &kp LS(MINUS) &kp KP_MINUS  &kp LC(LA(N9))    &kp LC(LA(N0))     &kp EQUAL        &trans
-&trans           &kp KP_SLASH  &kp BACKSLASH   &kp KP_EQUAL    &kp LS(DOT)        &kp LS(N8)  &kp LS(N9)    &kp HASH      &kp LS(KP_COMMA)  &kp LS(BACKSLASH)  &kp KP_MULTIPLY  &trans
-&trans           &trans        &kp N1          &kp N2          &kp N3             &trans      &trans        &trans        &trans            &trans             &trans           &trans
-&trans           &trans        &trans          &kp N0          &trans                                                     &trans    &trans            &trans             &trans           &trans
-                                                               &trans             &trans      &trans    &trans            &trans    &trans
-                                                               &trans             &trans      &trans    &trans            &trans    &trans
+&kp PRINTSCREEN  &trans        &trans          &trans          &trans             &trans             &trans         &trans            &trans            &trans             &trans           &trans
+&trans           &trans        &trans          &trans          &trans             &trans             &trans         &trans            &trans            &trans             &trans           &trans
+&kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)         &kp LS(MINUS)  &kp KP_MINUS      &kp LC(LA(N9))    &kp LC(LA(N0))     &kp EQUAL        &trans
+&trans           &kp KP_SLASH  &kp BACKSLASH   &kp KP_EQUAL    &kp LS(DOT)        &kp LS(N8)         &kp LS(N9)     &kp HASH          &kp LS(KP_COMMA)  &kp LS(BACKSLASH)  &kp KP_MULTIPLY  &trans
+&trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)   &kp LC(LA(Q))      &kp LS(N7)         &kp LC(LA(LT)) &kp LC(LA(MINUS)) &kp LS(N2)        &kp LC(LA(E))      &trans           &trans
+&trans           &trans        &trans          &kp N0          &trans                                               &trans            &trans            &trans             &trans           &trans
+                                               &trans          &trans             &trans             &trans         &trans            &trans
+                                               &trans          &trans             &trans             &trans         &trans            &trans
             >;
         };
 
