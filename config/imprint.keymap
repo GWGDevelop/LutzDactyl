@@ -19,7 +19,7 @@
 &kp LALT   &kp X     &kp V          &kp L     &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &mt LALT MINUS
 &kp LCTRL  &kp U     &kp I          &kp A     &kp E      &kp O           &kp S    &kp N        &kp R       &kp T      &kp D    &mt RCTRL Z
 &kp LSHFT  &kp LBKT  &mt LALT SEMI  &kp APOS  &kp P      &kp Y           &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
-&kp LGUI   &kp HOME  &kp UP         &kp DOWN  &trans                              &trans       &kp LEFT    &kp RIGHT  &kp E    &kp RGUI
+&kp LGUI   &kp HOME  &kp UP         &kp DOWN  &trans                              &trans       &kp LEFT    &kp RIGHT  &kp END  &kp RGUI
                                     &kp SPACE &kp TAB    &kp LC(Y)       &kp DEL  &kp BSPC     &kp RETURN
                                     &mo 2     &kp ESC    &kp K_APP       &kp INS  &kp LA(TAB)  &mo 1
             >;
