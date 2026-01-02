@@ -16,7 +16,7 @@
             bindings = <
 &kp F1     &kp F2    &kp F2         &kp F4    &kp F5     &kp F6          &kp F7   &kp F8       &kp F9      &kp F10    &kp F11  &kp F12
 &kp PG_DN  &kp N1    &kp N2         &kp N3    &kp N4     &kp N5          &kp N6   &kp N7       &kp N8      &kp N9     &kp N0   &kp PG_UP
-&kp LALT   &kp X     &kp V          &kp L     &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &kp LALT MINUS
+&kp LALT   &kp X     &kp V          &kp L     &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &mt LALT MINUS
 &kp LCTRL  &kp U     &kp I          &kp A     &kp E      &kp O           &kp S    &kp N        &kp R       &kp T      &kp D    &mt RCTRL Z
 &kp LSHFT  &kp LBKT  &mt LALT SEMI  &kp APOS  &kp P      &kp Y           &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
 &kp LGUI   &kp HOME  &kp UP         &kp DOWN  &trans                              &trans       &kp LEFT    &kp RIGHT  &kp E    &kp RGUI
@@ -25,29 +25,29 @@
             >;
         };
 
-        Sonderzeichen {
+        Numpad_Nav_Layer {
             bindings = <
-&kp PRINTSCREEN  &trans        &trans          &trans          &trans             &trans             &trans         &trans            &trans            &trans             &trans           &trans
-&trans           &trans        &trans          &trans          &trans             &trans             &trans         &trans            &trans            &trans             &trans           &trans
-&kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))  &kp RIGHT_BRACKET  &kp LS(N1)         &kp LS(MINUS)  &kp KP_MINUS      &kp LC(LA(N9))    &kp LC(LA(N0))     &kp EQUAL        &trans
-&trans           &kp KP_SLASH  &kp BACKSLASH   &kp KP_EQUAL    &kp LS(DOT)        &kp LS(N8)         &kp LS(N9)     &kp HASH          &kp LS(KP_COMMA)  &kp LS(BACKSLASH)  &kp KP_MULTIPLY  &trans
-&trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)   &kp LC(LA(Q))      &kp LS(N7)         &kp LC(LA(LT)) &kp LC(LA(MINUS)) &kp LS(N2)        &kp LC(LA(E))      &trans           &trans
-&trans           &trans        &trans          &kp N0          &trans                                               &trans            &trans            &trans             &trans           &trans
-                                               &trans          &trans             &trans             &trans         &trans            &trans
-                                               &trans          &trans             &trans             &trans         &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans            &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans            &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans            &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &kp N0  &trans                            &trans    &trans    &trans     &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans    &trans
+                                &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
-        Numpad_Cursor {
+        Keyboard_Control_Layer {
             bindings = <
-&trans       &trans        &trans        &trans        &trans        &trans                  &trans           &trans           &trans           &trans           &trans           &trans
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans           &trans           &trans
+&trans       &trans        &trans        &trans        &trans        &trans                  &trans  &trans           &trans           &trans           &trans           &trans
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans           &trans           &trans
 &sys_reset   &trans        &trans        &trans        &trans        &trans                  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &sys_reset
-&bootloader  &trans        &trans        &trans        &trans        &trans                  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &bootloader
-&to 4        &trans        &trans        &trans        &trans        &trans                  &trans           &trans           &trans           &trans           &trans           &to 4
-&to 4        &trans        &trans        &trans        &trans                                                 &trans           &trans           &trans           &trans           &to 4
-                                                       &trans        &trans        &trans    &trans           &trans           &trans
-                                                       &trans        &trans        &trans    &trans           &trans           &trans
+&bootloader  &trans        &trans        &trans        &trans        &trans                  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &bootloader
+&to 4        &trans        &trans        &trans        &trans        &trans                  &trans  &trans           &trans           &trans           &trans           &to 4
+&to 4        &trans        &trans        &trans        &trans                                        &trans           &trans           &trans           &trans           &to 4
+                                                       &trans        &trans        &trans    &trans  &trans           &trans
+                                                       &trans        &trans        &trans    &trans  &trans           &trans
             >;
         };
 
@@ -80,19 +80,21 @@
 };
 
 // right hand trackball configuration
+
 // &trackball_peripheral_listener {
 //    input-processors =
 //     activate layer 3 within 500ms of the trackball moving
 //     <&zip_temp_layer 3 500>;
 // };
+
 //left hand trackball configuration
 
 &trackball_central_listener {
     input-processors =
-        // multiply sensitivity by 1, divide by 3 (make it slower for scrolling),,
+        // multiply sensitivity by 1, divide by 3 (make it slower for scrolling),
         <&zip_xy_scaler 1 3>,
-        // make this trackball output scrolling events by default instead of cursor movement,,
+        // make this trackball output scrolling events by default instead of cursor movement,
         <&zip_xy_to_scroll_mapper>,
-        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball.,,
+        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball.,
         <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
 };
