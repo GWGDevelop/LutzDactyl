@@ -14,12 +14,12 @@
 
         default_layer {
             bindings = <
-&kp F1     &kp F2    &kp F3         &kp F4    &kp F5     &kp F6          &kp F7   &kp F8       &kp F9      &kp F10    &kp F11  &kp F12
-&kp PG_DN  &kp N1    &kp N2         &kp N3    &kp N4     &kp N5          &kp N6   &kp N7       &kp N8      &kp N9     &kp N0   &kp PG_UP
-&kp LALT   &kp X     &kp V          &kp L     &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &mt LALT MINUS
-&kp LCTRL  &kp U     &kp I          &kp A     &kp E      &kp O           &kp S    &kp N        &kp R       &kp T      &kp D    &mt RCTRL Z
-&kp LSHFT  &kp LBKT  &mt LALT SEMI  &kp APOS  &kp P      &kp Y           &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
-&kp LGUI   &kp HOME  &kp UP         &kp DOWN  &trans                              &trans       &kp LEFT    &kp RIGHT  &kp END  &kp RGUI
+&kp F1     &kp F2    &kp F3    &kp F4         &kp F5     &kp F6          &kp F7   &kp F8       &kp F9      &kp F10    &kp F11  &kp F12
+&kp PG_DN  &kp N1    &kp N2    &kp N3         &kp N4     &kp N5          &kp N6   &kp N7       &kp N8      &kp N9     &kp N0   &kp PG_UP
+&kp LALT   &kp X     &kp V     &kp L          &kp C      &kp W           &kp K    &kp H        &kp G       &kp F      &kp Q    &mt LALT MINUS
+&kp LCTRL  &kp U     &kp I     &kp A          &kp E      &kp O           &kp S    &kp N        &kp R       &kp T      &kp D    &mt RCTRL Z
+&kp LSHFT  &kp LBKT  &kp SEMI  &mt LALT APOS  &kp P      &kp Y           &kp B    &kp M        &kp COMMA   &kp DOT    &kp J    &kp RSHFT
+&kp LGUI   &kp HOME  &kp UP    &kp DOWN       &trans                              &trans       &kp LEFT    &kp RIGHT  &kp END  &kp RGUI
                                 &kp SPACE &kp TAB    &kp LC(Y)               &kp DEL  &kp BSPC     &kp RETURN
                                 &mo 2     &kp ESC    &kp K_APP               &kp INS  &kp LA(TAB)  &mo 1
             >;
@@ -42,7 +42,7 @@
             bindings = <
 &kp F13      &kp F14       &kp F15         &kp F16       &kp F17       &kp F18                 &kp F19          &kp F20   &kp F21       &kp F22          &kp F23          &kp F24						
 &bt BT_CLR   &bt BT_SEL 0  &kp BSPC        &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans           &kp BSPC  &kp KP_SLASH  &kp KP_MULTIPLY  &trans           &trans
-&sys_reset   &kp LC(X)     &kp DEL         &kp UP        &kp PG_UP     &kp ESC                 &kp LS(COMMA)    &kp N7    &kp N8        &kp N9           &kp TAB          &sys_reset
+&sys_reset   &kb LC(X)     &kp DEL         &kp UP        &kp PG_UP     &kp ESC                 &kp LS(COMMA)    &kp N7    &kp N8        &kp N9           &kp TAB          &sys_reset
 &bootloader  &kp LC(C)     &kp LEFT        &kp DOWN      &kp RIGHT     &kp RETURN              &kp N0           &kp N4    &kp N5        &kp N6           &kp KP_MINUS     &kp DOT
 &to 4        &kp LC(V)     &kp HOME        &kp TAB       &kp PG_DN     &kp END                 &kp LS(DOT)      &kp N1    &kp N2        &kp N3           &kp KP_PLUS      &to 4
 &to 4        &kp LA(BSPC)  &kp LS(LC(TAB)) &kp LC(TAB)   &trans                                                 &trans    &kp N0        &kp COMMA        &kp LS(N0)       &to 4
