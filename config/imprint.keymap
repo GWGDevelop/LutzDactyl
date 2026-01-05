@@ -33,7 +33,7 @@
 &trans           &kp KP_SLASH  &kp NUBS        &kp LS(N0)        &kp LS(DOT)        &kp LS(N8)         &kp LS(N9)       &kp LS(BACKSLASH) &kp LS(COMMA)     &kp LS(NUBS)       &kp KP_MULTIPLY  &kp RCTRL
 &trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)     &kp LC(LA(Q))      &kp LS(N6)         &kp RC(LA(NUBS)) &kp RA(MINUS)     &kp LS(N2)        &kp BACKSLASH      &kp RA(E)        &trans
 &trans           &kp LS(N3)    &trans          &kp N0            &trans                                                 &trans            &kp UP            &kp DOWN           &kp HOME         &trans
-                                           &trans          &trans             &trans                     &trans           &trans            &trans
+                                           &trans          &trans             &trans                     &trans           &trans            &DEL
                                            &trans          &trans             &trans                     &trans           &trans            &trans
             >;
         };
@@ -42,10 +42,10 @@
             bindings = <
 &kp F13      &kp F14       &kp F15         &kp F16       &kp F17       &kp F18                 &kp F19          &kp F20   &kp F21       &kp F22          &kp F23          &kp F24						
 &bt BT_CLR   &bt BT_SEL 0  &kp BSPC        &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans           &kp BSPC  &kp KP_SLASH  &kp KP_MULTIPLY  &trans           &trans
-&sys_reset   &kb LC(X)     &kp DEL         &kp UP        &kp PG_UP     &kp ESC                 &kp LS(COMMA)    &kp N7    &kp N8        &kp N9           &kp KP_MINUS     &sys_reset
-&bootloader  &kp LC(C)     &kp LEFT        &kp DOWN      &kp RIGHT     &kp RETURN              &kp N0           &kp N4    &kp N5        &kp N6           &kp KP_P         &bootloader
-&to 4        &kp LC(V)     &kp HOME        &kp TAB       &kp PG_DN     &kp END                 &kp LS(DOT)      &kp N1    &kp N2        &kp N3           &trans           &to 4
-&to 4        &kp LA(BCPC)  &kp LS(LC(TAB)) &kp LC(TAB)   &trans                                                 &trans    &kp N0        &kp TAB          &kp LS(N0)       &to 4
+&sys_reset   &kb LC(X)     &kp DEL         &kp UP        &kp PG_UP     &kp ESC                 &kp LS(COMMA)    &kp N7    &kp N8        &kp N9           &kp TAB          &sys_reset
+&bootloader  &kp LC(C)     &kp LEFT        &kp DOWN      &kp RIGHT     &kp RETURN              &kp N0           &kp N4    &kp N5        &kp N6           &kp KP_MINUS     &kp DOT
+&to 4        &kp LC(V)     &kp HOME        &kp TAB       &kp PG_DN     &kp END                 &kp LS(DOT)      &kp N1    &kp N2        &kp N3           &kp KP_PLUS      &to 4
+&to 4        &kp LA(BCPC)  &kp LS(LC(TAB)) &kp LC(TAB)   &trans                                                 &trans    &kp N0        &kp COMMA        &kp LS(N0)       &to 4
                                        &trans        &trans        &trans                          &trans           &trans           &trans
                                        &trans        &trans        &trans                          &trans           &trans           &trans
             >;
