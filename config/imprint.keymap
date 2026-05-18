@@ -28,7 +28,7 @@
         Sonderzeichen {
             bindings = <
 &kp PRINTSCREEN  &trans        &trans          &trans            &trans             &trans                  &trans            &trans             &trans          &trans          &trans           &rgb_ug RGB_TOG
-&kp TILDE2       &trans        &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_MUTE         &kp C_VOL_DN            &kp C_VOL_UP      &kp C_MUTE         &kp C_NEXT      &trans          &trans           &trans
+&LC(LALT(N4))    &trans        &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_MUTE         &kp C_VOL_DN            &kp C_VOL_UP      &kp C_MUTE         &kp C_NEXT      &trans          &trans           &trans
 &kp TILDE        &kp GRAVE     &kp LC(LA(N7))  &kp LC(LA(N8))    &kp RIGHT_BRACKET  &kp LS(N1)              &kp LS(MINUS)     &kp KP_MINUS       &kp LC(LA(N9))  &kp LC(LA(N0))  &kp EQUAL        &kp LALT
 &trans           &kp KP_SLASH  &kp NUBS        &kp LS(N0)        &kp LS(DOT)        &kp LS(N8)              &kp LS(N9)        &kp LS(BACKSLASH)  &kp LS(COMMA)   &kp LS(NUBS)    &kp KP_MULTIPLY  &kp RCTRL
 &trans           &kp LS(N4)    &kp LS(N5)      &kp LS(SLASH)     &kp LC(LA(Q))      &kp LS(N6)              &kp RC(LA(NUBS))  &kp RA(MINUS)      &kp LS(N2)      &kp BACKSLASH   &kp RA(E)        &trans
